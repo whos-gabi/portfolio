@@ -44,8 +44,8 @@ const nodemailer = require('nodemailer')
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const GMAIL_USER = "thecyberbro@gmail.com";
-const GMAIL_PASS = "10Iunie2004";
+const GMAIL_USER = "";
+const GMAIL_PASS = "";
 app.use(bodyParser.urlencoded({extended: true}))
 // POST route from contact form
 app.post('/contact', (req, res) => {
