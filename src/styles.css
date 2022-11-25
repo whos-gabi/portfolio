@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #2b3137;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.row *{
+  color: #ffffff;
+}
+.card{
+  background-color: #24292e;
+  /* border: 1px solid #000; */
+
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
